@@ -1,5 +1,7 @@
 Enable USB debugging on the mobile.
 
+Update backend address to: www/js/app.js
+
 Check that the device is found:
 > adb devices
 
