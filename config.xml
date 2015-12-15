@@ -43,4 +43,5 @@
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="~1.1.1" />
+    <plugin name="com.pylonproducts.wifiwizard" spec="~0.2.11" />
 </widget>
