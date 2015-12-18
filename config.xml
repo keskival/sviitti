@@ -44,4 +44,6 @@
     </platform>
     <plugin name="cordova-plugin-inappbrowser" spec="~1.1.1" />
     <plugin name="com.pylonproducts.wifiwizard" spec="~0.2.11" />
+    <plugin name="cordova-plugin-ble-central" spec="~1.0.3" />
+    <plugin name="com.phonegap.plugins.bluetooth" spec="https://github.com/tanelih/phonegap-bluetooth-plugin.git" />
 </widget>
