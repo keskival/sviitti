@@ -11,7 +11,18 @@ var paths = {
   sass: ['./scss/**/*.scss']
 };
 
-gulp.task('default', ['sass']);
+gulp.task('default', ['sass', 'build']);
+
+gulp.task('build', function(done) {
+  // platforms/android/assets/www/cordova*.js
+  // platforms/android/assets/www/plugins
+  // ->
+  // ../sviitti-server/www/
+  gulp.src('./platforms/android/assets/www/cordova*.js')
+    .pipe(gulp.dest('../sviitti-server/www/'));
+  gulp.src('./platforms/android/assets/www/plugins')
+  .pipe(gulp.dest('../sviitti-server/www/'));
+});
 
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')
