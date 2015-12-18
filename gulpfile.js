@@ -20,8 +20,9 @@ gulp.task('build', function(done) {
   // ../sviitti-server/www/
   gulp.src('./platforms/android/assets/www/cordova*.js')
     .pipe(gulp.dest('../sviitti-server/www/'));
-  gulp.src('./platforms/android/assets/www/plugins')
-  .pipe(gulp.dest('../sviitti-server/www/'));
+  gulp.src(['platforms/android/assets/www/plugins/**/*'])
+    .pipe(gulp.dest('../sviitti-server/www/plugins/'))
+    .on('end', done);
 });
 
 gulp.task('sass', function(done) {
