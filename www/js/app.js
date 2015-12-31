@@ -1,5 +1,5 @@
 // Note that for Facebook authentication to work, this must be the same as in Facebook app settings.
-var SERVER_IP = "10.90.135.95";
+var SERVER_IP = "178.217.128.133";
 
 // Embeds the web page as the application.
 angular.module('starter', ['ionic'])
