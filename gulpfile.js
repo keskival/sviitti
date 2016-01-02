@@ -21,7 +21,9 @@ gulp.task('build', function(done) {
   gulp.src('./platforms/android/assets/www/cordova*.js')
     .pipe(gulp.dest('../sviitti-server/www/'));
   gulp.src(['platforms/android/assets/www/plugins/**/*'])
-    .pipe(gulp.dest('../sviitti-server/www/plugins/'))
+    .pipe(gulp.dest('../sviitti-server/www/plugins/'));
+  gulp.src(['platforms/android/build/outputs/apk/android-debug.apk'])
+    .pipe(gulp.dest('../sviitti-server/www/'))
     .on('end', done);
 });
 
