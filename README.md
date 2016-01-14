@@ -1,3 +1,7 @@
+Copyright: Cybercom Finland Oy
+
+No open source licensing. Ask permission from: tero.keski-valkama@cybercom.com
+
 Enable USB debugging on the mobile.
 
 Update backend address to: www/js/app.js
