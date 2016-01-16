@@ -47,4 +47,5 @@
     <plugin name="cordova-plugin-ble-central" spec="~1.0.3" />
     <plugin name="com.phonegap.plugins.bluetooth" spec="https://github.com/tanelih/phonegap-bluetooth-plugin.git" />
     <plugin name="cordova-plugin-bluetooth-serial" spec="~0.4.5" />
+    <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications" />
 </widget>
